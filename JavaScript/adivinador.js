@@ -140,7 +140,6 @@ const finalizarJuegoGanar = () =>{
 
         ganaste.pause();
         reintentarBoxB.play();
-        console.log
         cuerpo.removeChild(negra);
         cuerpo.removeChild(caja);
         

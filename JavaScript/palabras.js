@@ -1,2 +1,2 @@
-const palabras = ["HTML", "JAVASCRIPT", "PYTHOM", "CSS", 'ALURA', 'ORACLE'];
+const palabras = ["HTML", "JAVA", "PYTHOM", "CSS", 'ALURA', 'ORACLE'];
 

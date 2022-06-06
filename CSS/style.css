@@ -83,8 +83,9 @@ nav{
     
     width: 50%;
     height: 20%;
-    margin-top: 5em;
-    margin-right: 3em;
+    margin-top: 6em;
+    margin-left: 3em;
+    margin-right: 3em ;
     background-color:  rgba(82, 3, 76, 0.139);
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -110,7 +111,7 @@ nav{
     color: black;
     width: 40%;
     height: 15%;
-    margin-bottom: 12em;
+    margin-bottom: 15em;
     
 }
 
@@ -763,4 +764,90 @@ nav{
 .desencoger{
     transition: 500ms;
     transform: scale(1.00);
+}
+
+/* RESPOSIVE DESING */
+
+@media screen and (max-width:480px) {
+    .inicio, .pie-de-pagina > ul > li, .contenedor-inicio, nav, .contenedor,.muneco, .boton-agregar-teclado, .letras-interactivas-contenedor, .botones-contenido, .palabra, .contenedor, .contenedor-agregar-palabra, .botones-agregar-palabra, .agregar-texto-span, #caja, .boton-perder, .texto-perder{
+        margin: 0 auto;
+        width: auto;
+        
+    }
+    /* INICIO JUEGO */
+    .contenedor{
+        height: 1500px;
+        margin-top: 5em;
+    }
+
+    .palabra{
+        width: 420px;
+    }
+
+    .letras{
+        width: 420px;
+        margin: 0 auto;
+    }
+
+    .botones-contenido{
+        margin-top: 3em;
+    }
+
+    
+
+    .muneco{
+        width: 400px;
+        margin-top: 2em;
+    }
+
+    .palabra{
+        margin-top: 30em;
+    }
+
+    .ah1,.ah2,.ah3,.ah4,.ah5,.ah6{
+        background-size: 400px;
+    }
+
+
+    .botones-inicio{
+        width: 100%;
+    }
+
+    #agregar-palabra{
+        width: 90%;
+    }
+
+    /* AGREGAR - PALABRA */
+
+    .contenedor-agregar-palabra{
+        margin-top: 3em;
+    }
+
+    .botones-agregar-palabra{
+        margin-top: 3em;
+    }
+    .agregar-texto-span{
+        margin-left: 2em;
+    }
+
+
+    /* CAJA GANAR/PERDER */ 
+
+    #caja{
+       
+        margin-top: 5em;
+        width: 100%;
+    }
+
+    .boton-perder{
+        margin-top: 12em;
+    }
+
+    
+
+    nav{
+        margin-top: 2em;
+    }
+    
+
 }

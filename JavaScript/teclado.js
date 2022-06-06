@@ -8,7 +8,7 @@ const contenedorBotones = document.getElementById('botones-contenedor');
 //BOTON QUE CONTRAE Y EXTRAE EL TECLADO
 botonTeclado.addEventListener('click', function(){
     botonTeclado.toggleAttribute("active");
-    console.log(botonTeclado.attributes)
+    
 
     if(botonTeclado.attributes.length == 3){
         expandirTeclado.load();
@@ -47,7 +47,7 @@ const tecladoTeclas = () => {
 
             
             
-            console.log(teclaPresionada)
+            
             
             if(!letrasUsadas.includes(teclaPresionada)){
 
@@ -112,9 +112,7 @@ const escuchadorTeclas = (letra) =>{
     }
 }
 
-for(i in teclas){
-    console.log(teclas[i].innerHTML);
-}
+
 
 
 

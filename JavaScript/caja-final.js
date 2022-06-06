@@ -12,7 +12,7 @@ const crearCaja = () => {
 
     //Boton OK
     let boton = document.createElement('button');
-    boton.innerHTML = 'ACEPTAR';
+    boton.innerHTML = 'SALIR';
     boton.classList.add('boton-perder');
     boton.setAttribute('id', 'boton-aceptar');
 
@@ -63,7 +63,7 @@ const crearCajaGanar = () => {
 
     //Boton OK
     let boton = document.createElement('button');
-    boton.innerHTML = 'OK';
+    boton.innerHTML = 'SALIR';
     boton.classList.add('boton-perder');
     boton.setAttribute('id', 'boton-aceptar');
 
