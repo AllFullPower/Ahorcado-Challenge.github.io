@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <title> AHORCADO </title>
+        <link rel="icon" type="image/png" href="Imagenes/IMGS/h6.png">
+
+        <link  rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+ 
+
+    </head>
+
+    <body class="cuerpo" id="body">
+
+  
+
+
+        <haeder>
+            <nav>
+                
+                <h1 id="logo-alura"> <img src="Imagenes/LOGOS/Vector.png"> </h1>
+                <ul class="navio">
+                    <li class="navio-elementos"><h1><img id = "imagen-musica" src="Imagenes/LOGOS/musica-on.png"></h1></li>
+                </ul>
+                
+            </nav>
+
+
+        </haeder>
+        
+
+        <main>
+
+            <section class="inicio" id="inicio-contendor">
+                <button class = "botones-inicio" id="boton-inicio"> INICIAR⌟ </button>
+                <button class = "botones-inicio" id="agregrar-palabra"> AGREGAR PALABRA⌟ </button>
+                
+
+
+            </section>
+
+            <section class="contenedor" id="contenedor">
+                <div class="boton-agregar-teclado-contenedor">
+                    <button class="boton-agregar-teclado" id="boton-agregar-teclado">⌨</button>
+
+                </div>
+                <div class="muneco" id="muneco">
+                    
+
+                </div>
+
+                <div class="palabra" id="contenedor-palabra">
+
+
+                </div>
+
+                <div class="letras" id="contenedor-letras">
+
+
+                </div>
+
+                <div class="letras-interactivas-contenedor" id="teclado">
+
+                    <button class="teclas">Q</button>
+                    <button class="teclas">W</button>
+                    <button class="teclas">E</button>
+                    <button class="teclas">R</button>
+                    <button class="teclas">T</button>
+                    <button class="teclas">Y</button>
+                    <button class="teclas">U</button>
+                    <button class="teclas">I</button>
+                    <button class="teclas">O</button>
+                    <button class="teclas">P</button>
+                    <br>
+                    <button class="teclas">A</button>
+                    <button class="teclas">S</button>
+                    <button class="teclas">D</button>
+                    <button class="teclas">F</button>
+                    <button class="teclas">G</button>
+                    <button class="teclas">H</button>
+                    <button class="teclas">J</button>
+                    <button class="teclas">K</button>
+                    <button class="teclas">L</button>
+                    <button class="teclas">Ñ</button>
+                    <br>
+                    <button class="teclas">Z</button>
+                    <button class="teclas">X</button>
+                    <button class="teclas">C</button>
+                    <button class="teclas">V</button>
+                    <button class="teclas">B</button>
+                    <button class="teclas">N</button>
+                    <button class="teclas">M</button>
+
+                </div>
+
+                <div class="botones" id="botones-contenedor">
+                    <button class="botones-contenido" id="rendirse" > DESISTIR </button>
+                    <button class="botones-contenido" id="palabra-nueva"> REINTENTAR </button>
+                </div>
+
+            </section>
+
+            <section class="contenedor-agregar-palabra" id="contenedor-agregar-palabra">
+                
+                <textarea type = "text" class="texto-agregar-palabra" id="texto-palabra" placeholder="AGREGA TU PALABRA" minlength="1" maxlength="8" onkeypress="return soloLetras(event);" required></textarea>
+
+                <span id="caracteres-texto" class="caracteres-texto"></span>         
+
+
+                
+                
+                <div class="contenedor-botones"><span class="agregar-texto-span" id="agregar-palabra-span"> ⚠ Solo utilizar letras y en mayuscula, no se aceptan palabras repetidas </span>
+
+                    <button class="botones-agregar-palabra" id = 'agregar-boton'>AGREGAR</button>
+                    <button class="botones-agregar-palabra" id = "volver-boton"> REGRESAR </button>
+                    
+                </div>
+
+
+            </section>
+
+
+
+
+
+        </main>
+
+        <footer class="pie-de-pagina">
+
+
+  
+            <ul>
+                
+                    <li><a  target="_blank" href="https://www.instagram.com/jeff_69r/"><img src="./Imagenes/LOGOS/INSTAGRAM-LOGO.png"></a></li>
+    
+                    <li><a target="_blank" href="https://www.linkedin.com/in/jeff-roj-a9bb18239/"><img src="./Imagenes/LOGOS/LINKEDIN-LOGO.png"></a></li>
+    
+                    <li><a target="_blank" href="https://github.com/AllFullPower"><img src="Imagenes/LOGOS/GITHUB-LOGO.png"></a></li>
+
+                    <p>   ©CopyRight  -  Jefferson Rojas - 2022 </p>
+                
+            </ul>
+      
+    
+    
+        </footer>
+    
+
+       
+        
+
+
+
+
+
+    </body>
+
+    
+
+
+    <script src="JavaScript/boton-inicio.js"></script>
+    <script src="JavaScript/palabras.js"></script>
+    <script src="JavaScript/adivinador.js"></script>
+    <script src="JavaScript/caja-final.js"></script>
+    <script src="JavaScript/intentarDeNuevo - rendirse.js"></script>
+    <script src="JavaScript/agregar-palabra.js"></script>
+    <script src="JavaScript/sonidos.js"></script>
+    <script src="JavaScript/teclado.js"></script>
+
+
+
+
+</html>
